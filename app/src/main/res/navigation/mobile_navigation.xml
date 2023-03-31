@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cseCompanion.ui.home.HomeFragment"
+        android:label= "@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_timeTableFragment"
+            app:destination="@id/timeTableFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_attendanceFragment"
+            app:destination="@id/attendanceFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_noticeBoard2"
+            app:destination="@id/noticeBoard2" />
+
+        <action
+            android:id="@+id/action_nav_home_to_CULinks"
+            app:destination="@id/others" />
+        <action
+            android:id="@+id/action_nav_home_to_syllabus2"
+            app:destination="@id/syllabus2" />
+        <action
+            android:id="@+id/action_nav_home_to_expandableListView"
+            app:destination="@id/expandableListView" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.cseCompanion.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.cseCompanion.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/timeTableFragment"
+        android:name="com.example.cseCompanion.TimeTableFragment"
+        android:label="Time Table"
+        tools:layout="@layout/fragment_time_table" >
+        <action
+            android:id="@+id/action_timeTableFragment_to_pdfWebView"
+            app:destination="@id/pdfWebView" />
+        <action
+            android:id="@+id/action_timeTableFragment_to_timeTable6C2"
+            app:destination="@id/timeTable6C2" />
+        <action
+            android:id="@+id/action_timeTableFragment_to_timeTable6C3"
+            app:destination="@id/timeTable6C3" />
+    </fragment>
+    <fragment
+        android:id="@+id/attendanceFragment"
+        android:name="com.example.cseCompanion.fragment.AttendanceFragment"
+        android:label="Attendance"
+        tools:layout="@layout/fragment_attendance" />
+    <fragment
+        android:id="@+id/nav_mst_marks"
+        android:name="com.example.cseCompanion.fragment.MstMarks"
+        android:label="MST Marks"
+        tools:layout="@layout/fragment_mst_marks" />
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="com.example.cseCompanion.fragment.Sports"
+        android:label="Sports"
+        tools:layout="@layout/fragment_sports" >
+        <action
+            android:id="@+id/action_nav_sports_to_upcoming_events2"
+            app:destination="@id/upcoming_events2" />
+        <action
+            android:id="@+id/action_nav_sports_to_previousEvents"
+            app:destination="@id/previousEvents" />
+        <action
+            android:id="@+id/action_nav_sports_to_achievements2"
+            app:destination="@id/achievements2" />
+        <action
+            android:id="@+id/action_nav_sports_to_sportsContact"
+            app:destination="@id/sportsContact" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.cseCompanion.fragment.ContactUs"
+        android:label="Department Contact"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/noticeBoard2"
+        android:name="com.example.cseCompanion.NoticeBoard"
+        android:label="Notice Board"
+        tools:layout="@layout/fragment_notice_board" />
+    <fragment
+        android:id="@+id/pdfWebView"
+        android:name="com.example.cseCompanion.fragment.TimeTable6C1"
+        android:label="TimeTable 8C1"
+        tools:layout="@layout/fragment_pdf_web_view" />
+    <fragment
+        android:id="@+id/expandableListView"
+        android:name="com.example.cseCompanion.fragment.Notes"
+        android:label="Notes"
+        tools:layout="@layout/fragment_notes" />
+    <fragment
+        android:id="@+id/others"
+        android:name="com.example.cseCompanion.fragment.CULinks"
+        android:label="Others"
+        tools:layout="@layout/others" />
+    <fragment
+        android:id="@+id/syllabus2"
+        android:name="com.example.cseCompanion.fragment.syllabus"
+        android:label="Syllabus"
+        tools:layout="@layout/fragment_syllabus" >
+        <action
+            android:id="@+id/action_syllabus2_to_ai_syl"
+            app:destination="@id/ai_syl" />
+        <action
+            android:id="@+id/action_syllabus2_to_ccSyllabus"
+            app:destination="@id/ccSyllabus" />
+        <action
+            android:id="@+id/action_syllabus2_to_wcSyllabus"
+            app:destination="@id/wcSyllabus" />
+        <action
+            android:id="@+id/action_syllabus2_to_mlSyllabus"
+            app:destination="@id/mlSyllabus" />
+        <action
+            android:id="@+id/action_syllabus2_to_wcSyllabus2"
+            app:destination="@id/wcSyllabus" />
+        <action
+            android:id="@+id/action_syllabus2_to_cdSyllabus"
+            app:destination="@id/cdSyllabus" />
+    </fragment>
+    <fragment
+        android:id="@+id/ai_syl"
+        android:name="com.example.cseCompanion.fragment.AiSyllabus"
+        android:label="Network Security and Cryptography"
+        tools:layout="@layout/fragment_ai_syl" />
+    <fragment
+        android:id="@+id/ccSyllabus"
+        android:name="com.example.cseCompanion.fragment.CcSyllabus"
+        android:label="Data Warehouse and Data Mining"
+        tools:layout="@layout/fragment_cc_syllabus" />
+    <fragment
+        android:id="@+id/cdSyllabus"
+        android:name="com.example.cseCompanion.fragment.CdSyllabus"
+        android:label="Big Data"
+        tools:layout="@layout/fragment_cd_syllabus" />
+    <fragment
+        android:id="@+id/mlSyllabus"
+        android:name="com.example.cseCompanion.fragment.MlSyllabus"
+        android:label="Adhoc and Wireless sensor networks"
+        tools:layout="@layout/fragment_ml_syllabus" />
+    <fragment
+        android:id="@+id/wcSyllabus"
+        android:name="com.example.cseCompanion.fragment.WcSyllabus"
+        android:label="Distributes Databases"
+        tools:layout="@layout/fragment_wc_syllabus" />
+    <fragment
+        android:id="@+id/timeTable6C2"
+        android:name="com.example.cseCompanion.fragment.TimeTable6C2"
+        android:label="TimeTable 8C2"
+        tools:layout="@layout/fragment_time_table6_c2" />
+    <fragment
+        android:id="@+id/timeTable6C3"
+        android:name="com.example.cseCompanion.fragment.TimeTable6C3"
+        android:label="TimeTable 8C3"
+        tools:layout="@layout/fragment_time_table6_c3" />
+    <fragment
+        android:id="@+id/upcoming_events2"
+        android:name="com.example.cseCompanion.UpcomigEvents"
+        android:label="Upcoming Events"
+        tools:layout="@layout/fragment_upcoming_events" />
+    <fragment
+        android:id="@+id/previousEvents"
+        android:name="com.example.cseCompanion.PreviousEvents"
+        android:label="Previous Events"
+        tools:layout="@layout/fragment_previous_events" />
+    <fragment
+        android:id="@+id/achievements2"
+        android:name="com.example.cseCompanion.Achievements"
+        android:label="Achievements"
+        tools:layout="@layout/fragment_achievements" >
+        <action
+            android:id="@+id/action_achievements2_to_annualMeet"
+            app:destination="@id/annualMeet" />
+    </fragment>
+    <fragment
+        android:id="@+id/annualMeet"
+        android:name="com.example.cseCompanion.AnnualMeet"
+        android:label="Annual Meet"
+        tools:layout="@layout/fragment_annual_meet" />
+    <fragment
+        android:id="@+id/nav_assignment_marks"
+        android:name="com.example.cseCompanion.AssignmentMarks"
+        android:label="Assignment Marks"
+        tools:layout="@layout/fragment_assignment_marks" />
+    <fragment
+        android:id="@+id/sportsContact"
+        android:name="com.example.cseCompanion.SportsContact"
+        android:label="Contact"
+        tools:layout="@layout/fragment_sports_contact" />
+
+</navigation>

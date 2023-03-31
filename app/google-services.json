@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "929207940575",
+    "project_id": "cse-companion-bbsbec",
+    "storage_bucket": "cse-companion-bbsbec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929207940575:android:d1ecf2bcb8920cf21ec06a",
+        "android_client_info": {
+          "package_name": "com.example.cseCompanion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929207940575-hji9ge53dk336h10e7im0len1arte1pv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXKDC4Bzu-o5MaF8KXlfs3QCaHQ-3EhwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929207940575-hji9ge53dk336h10e7im0len1arte1pv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.cseCompanion">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CSECompanion"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+        <activity android:name=".PdfCreate" />
+        <activity android:name=".ImageViewForNoticeBoard" />
+        <activity android:name=".ImageViewActivity" />
+        <activity android:name=".Personal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavActivity" />
+        </activity>
+        <activity
+            android:name=".NavActivity"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/Theme.CSECompanion.NoActionBar" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity
+            android:name=".SignUpActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".LoginActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".AdminLoginProtection" />
+        <activity android:name=".LoginActivityAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.ForgotPasswordActivityAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.SignUpActivityAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.MainActivityAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.UploadNotice" />
+        <activity android:name="com.example.csecompanionadminapp.GalleryUpload" />
+        <activity android:name="com.example.csecompanionadminapp.SelectTimeTableAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.DeleteNotice" />
+        <activity android:name="com.example.csecompanionadminapp.MstMarksAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.AttendanceListAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.UpcomingEventsAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.AssignmentMarks2Admin" />
+        <activity android:name="com.example.csecompanionadminapp.AssignmentMarksAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.AttendanceUploadAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.InternalCalculatorAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.MarksMst2Admin" />
+        <activity android:name="com.example.csecompanionadminapp.MarksMst3Admin" />
+        <activity android:name="com.example.csecompanionadminapp.NscAssessment" />
+        <activity android:name="com.example.csecompanionadminapp.PreviousEventsAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.SelectMSTAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.UpdateTimeTable" />
+        <activity android:name="com.example.csecompanionadminapp.MstMarksUploadAdmin" />
+        <activity android:name="com.example.csecompanionadminapp.UpdateTt6C2Admin" />
+        <activity android:name="com.example.csecompanionadminapp.UpdateTt6C3Admin" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_kf3xR6a7M21zpg"/>
+        <meta-data
+            android:name="com.google.gms.wallet.api.enabled"
+            android:value="true"/>
+    </application>
+
+</manifest>

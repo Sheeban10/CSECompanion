@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/dashboard"
+            android:title="@string/menu_home"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery"
+            android:menuCategory="secondary"/>
+
+    </group>
+
+    <item android:title="Important Links"
+        android:menuCategory="secondary">
+
+        <menu>
+            <item
+                android:id="@+id/nav_mst_marks"
+                android:icon="@drawable/ic_baseline_insert_drive_file_24"
+                android:title="MST Marks"
+                android:menuCategory="secondary"/>
+
+            <item
+                android:id="@+id/nav_assignment_marks"
+                android:icon="@drawable/edit"
+                android:title="Assignment Marks"
+                android:menuCategory="secondary"/>
+
+            <item
+                android:id="@+id/nav_sports"
+                android:icon="@drawable/ic_baseline_sports_volleyball_24"
+                android:title="Sports"
+                android:menuCategory="secondary"/>
+        </menu>
+
+    </item>
+
+    <item android:title="Communicate"
+        android:menuCategory="secondary">
+
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_baseline_email_24"
+                android:title="Department Contact"
+                android:menuCategory="secondary"/>
+
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/team"
+                android:title="Our Team"
+                android:menuCategory="secondary"/>
+        </menu>
+
+    </item>
+
+</menu>

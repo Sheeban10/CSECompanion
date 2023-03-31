@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@color/white"
+    tools:context=".fragment.syllabus">
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/syllabus_ai"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:cardCornerRadius="7dp"
+       app:cardElevation="7dp">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical"
+          android:padding="16dp">
+
+
+         <TextView
+             android:id="@+id/textns"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:layout_marginLeft="10dp"
+             android:fontFamily="serif"
+             android:text="Network Security and Cryptography"
+             android:textColor="@color/black"
+             android:textSize="22sp"
+             android:textStyle="bold" />
+
+      </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/syllabus_cc"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:cardCornerRadius="7dp"
+       app:cardElevation="6dp">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:padding="16dp">
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:layout_marginLeft="10dp"
+             android:fontFamily="serif"
+             android:text="Data Mining and Data Warehousing"
+             android:textColor="@color/black"
+             android:textSize="22sp"
+             android:textStyle="bold" />
+
+      </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/syllabus_cd"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:cardCornerRadius="7dp"
+       app:cardElevation="6dp">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:padding="16dp">
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:layout_marginLeft="10dp"
+             android:fontFamily="serif"
+             android:text="Big Data"
+             android:textColor="@color/black"
+             android:textSize="22sp"
+             android:textStyle="bold" />
+
+      </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/syllabus_wc"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:cardCornerRadius="7dp"
+       app:cardElevation="6dp">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:padding="16dp">
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:layout_marginLeft="10dp"
+             android:fontFamily="serif"
+             android:text="Distributed databases"
+             android:textColor="@color/black"
+             android:textSize="22sp"
+             android:textStyle="bold" />
+
+      </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+
+   <androidx.cardview.widget.CardView
+       android:id="@+id/syllabus_ml"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="8dp"
+       app:cardCornerRadius="7dp"
+       app:cardElevation="6dp">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="center"
+          android:orientation="vertical"
+          android:padding="16dp">
+
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="10dp"
+             android:layout_marginLeft="10dp"
+             android:fontFamily="serif"
+             android:text="Adhoc and Wireless sensor networks "
+             android:textColor="@color/black"
+             android:textSize="22sp"
+             android:textStyle="bold" />
+
+      </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

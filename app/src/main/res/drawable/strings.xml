@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CSE Companion Admin App</string>
+    <string name="format_attendance"><![CDATA[*Format -> Lectures Attend/Total Lectures (13/24)]]></string>
+    <string name="emoji">Made with &#128147;  by- CSE Students</string>
+    <string name="descriptionFp">Enter the email address we will send you an email to reset the password</string>
+</resources>

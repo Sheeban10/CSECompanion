@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CSE Companion</string>
+    <string name="descriptionFp">Enter the email address we will send you an email to reset the password</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CSE Companion</string>
+    <string name="nav_header_subtitle">coders.strangers@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="emoji">Made with &#128147;  by- CSE Students</string>
+    <string name="menu_home">Dashboard</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Our Team</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clg_des">(Professor &amp; Head of CSE Department)\Govt. College of Engineering &amp; Technology</string>
+    <string name="clg_des_dev">CSE Student @ Govt. College of Engineering &amp; Technology\ Safapora, Ganderbal</string>
+    <string name="mst_disclaimer">*For any discrepancy in MST marks.Please contact your respective mentor.</string>
+    <string name="assign_disclaimer">*For any discrepancy in Assignment marks.Please contact your respective mentor.</string>
+    <string name="cricketTeam">Jatinderpal Prashar (C)\nTaranpreet Singh\nRoshan John</string>
+
+    <string name="format_attendance"><![CDATA[*Format -> Lectures Attend/Total Lectures (13/24)]]></string>
+    <string name="clg_sports">Head of Sports Association</string>
+
+</resources>
